@@ -13,6 +13,7 @@
 A module for chess opening classification.
 """
 
+import json
 import sys
 
 NIC_DATA = {
@@ -6186,6 +6187,8 @@ if __name__ == '__main__':
     except IndexError:
         sys.exit(1)
 
-    print(get_opening_name(EPD))
-    print(get_eco_code(EPD))
-    print(get_nic_code(EPD))
+    #print(get_opening_name(EPD))
+    #print(get_eco_code(EPD))
+    #print(get_nic_code(EPD))
+    #print(NIC_DATA)
+    print(json.dumps(NIC_DATA))
