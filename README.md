@@ -25,4 +25,4 @@ spelling I have used Wikipedia as a source.
 # The format of the data
 
 The modified data is currently in the Python files, but more sensible would
-be use JSON similar to [eco](https://github.com/niklasf/eco)
+be use JSON similar to [eco](https://github.com/niklasf/eco).
