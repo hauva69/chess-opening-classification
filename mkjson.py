@@ -3,7 +3,11 @@
 import openingclassification
 
 class ClassificationItem(object):
-    pass
+    eco
+    nic
+    name
+    fen
+    moves
 
 def main():
     pass
