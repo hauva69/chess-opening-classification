@@ -3,14 +3,14 @@
 import openingclassification
 
 class ClassificationItem(object):
-    eco
-    nic
-    name
-    fen
-    moves
+    eco = ''
+    nic = ''
+    name = ''
+    fen = ''
+    moves = ''
 
 def main():
     pass
 
-def __name__ == '__main__':
+if __name__ == '__main__':
     main()
