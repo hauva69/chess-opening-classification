@@ -64,10 +64,12 @@ def main():
     # This works, but does not preserve the order of the properties
     # print(json.dumps([item.__dict__ for item in items.values()]))
     # print(json.dumps(items))
+    # https://stackoverflow.com/questions/36880065/how-to-serialize-python-dict-to-json
     fen = 'rnbqkbnr/ppp2ppp/8/3pp3/4PP2/8/PPPP2PP/RNBQKBNR w KQkq -'
     logging.debug("FEN=%s NIC=%s" % (fen, items[fen].nic))
     print(json.dumps(
-        items[fen].__dict__
+        # items[fen].__dict__
+        items
     ))
 
 
