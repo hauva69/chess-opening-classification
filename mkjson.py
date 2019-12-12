@@ -3,13 +3,15 @@
 import collections
 import json
 import logging
+import sys
 
 import openingclassification
 
 logging.basicConfig(level=logging.DEBUG)
 
 
-class ClassificationItem(json.JSONEncoder):
+# class ClassificationItem(json.JSONEncoder):
+class ClassificationItem(dict):
     eco = ''
     nic = ''
     name = ''
@@ -67,9 +69,9 @@ def main():
     # https://stackoverflow.com/questions/36880065/how-to-serialize-python-dict-to-json
     fen = 'rnbqkbnr/ppp2ppp/8/3pp3/4PP2/8/PPPP2PP/RNBQKBNR w KQkq -'
     logging.debug("FEN=%s NIC=%s" % (fen, items[fen].nic))
-    print(json.dumps(
+    print(json.dump(
         # items[fen].__dict__
-        items
+        items, sys.stdout
     ))
 
 
