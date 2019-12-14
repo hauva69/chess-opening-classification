@@ -105,4 +105,5 @@ ENV/
 
 # misc
 mkjson.json
+*.err
 
