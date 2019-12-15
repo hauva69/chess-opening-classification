@@ -1100,7 +1100,7 @@ NIC_DATA = {
     'rnbqk2r/ppp1ppbp/6p1/8/2BPP3/2P5/P4PPP/R1BQK1NR b KQkq -':'GI.05',
     'rnbq1rk1/ppp1ppbp/3p1np1/8/2PP4/2N1P1P1/PP3PBP/R1BQK1NR b KQ -':'KI.78',
     'r1bqkb1r/pp3ppp/2n2n2/4p3/2Pp4/3P1NP1/PP3PBP/RNBQK2R b KQkq -':'BI.20*',
-    'r1bq1rk1/ppp1npbp/3p1np1/3Pp3/2P1P3/2N5/PP1NBPPP/R1BQ1RK1 b - -':'KI.07',
+    'r1bq1rk1/ppp1npbp/3p1np1/3Pp3/2P1P3/2N5/PP1NBPPP/R1BQ1RK1 b - -':'KI.07'
 }
 
 ECO_DATA = {
@@ -2107,7 +2107,7 @@ ECO_DATA = {
     'r1bq1rk1/pp2ppbp/2np1np1/2pP4/2P5/2N2NP1/PP2PPBP/R1BQ1RK1 b - -':'E66',
     'r2qkbnr/pp2pppp/2n5/2pp4/3P2b1/5NP1/PPP1PP1P/RNBQKB1R w KQkq -':'D80*',
     'rnbqkbnr/ppp2ppp/8/3p4/3P4/8/PP2PPPP/RNBQKBNR b KQkq -':'B13*',
-    'rnbq1rk1/pppp1ppp/5n2/4p3/1b2P3/2NP1N2/PPP2PPP/R1BQKB1R b KQ -':'C66*',
+    'rnbq1rk1/pppp1ppp/5n2/4p3/1b2P3/2NP1N2/PPP2PPP/R1BQKB1R b KQ -':'C66*'
 }
 
 LONG_NAME_DATA = {
