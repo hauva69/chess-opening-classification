@@ -5,7 +5,6 @@ MKSJON
 mkjson creates chess opening classification JSON file from the Python library.
 """
 
-import collections
 import json
 import logging
 import sys
@@ -16,32 +15,29 @@ logging.basicConfig(level=logging.DEBUG)
 
 
 def main():
+    """The main function."""
     items = dict()
-    for k, v in openingclassification.NIC_DATA.items():
+    for fen, nic_key in openingclassification.NIC_DATA.items():
         item = dict()
-        item['epd'] = k
-        item['nic'] = v
-        items[k] = item
-    for k, v in openingclassification.ECO_DATA.items():
-        if k in items:
-            items[k]['eco'] = v
+        item['fen'] = fen
+        item['nic'] = nic_key
+        items[fen] = item
+    for fen, eco_key in openingclassification.ECO_DATA.items():
+        if fen in items:
+            items[fen]['eco_key'] = eco_key
         else:
             item = dict()
-            item['epd'] = k
-            item['eco'] = v
-            items[k] = item
-    for k, v in openingclassification.LONG_NAME_DATA.items():
-        if k in items:
-            items[k]['name'] = v
+            item['fen'] = fen
+            item['eco'] = eco_key
+            items[fen] = item
+    for fen, name in openingclassification.LONG_NAME_DATA.items():
+        if fen in items:
+            items[fen]['name'] = name
         else:
             item = dict()
-            item['epd'] = k
-            item['name'] = v
-            items[k] = item
-
-    fenlist = list()
-    for k, v in items.items():
-        fenlist.append(v)
+            item['fen'] = fen
+            item['name'] = name
+            items[fen] = item
 
     json.dump(items, sys.stdout)
 
