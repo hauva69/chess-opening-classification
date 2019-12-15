@@ -21,6 +21,11 @@ are ASCII only and some long names are spelled in several different ways.
 My intention is to make the long names UTF-8 compatible and for the correct
 spelling I have used Wikipedia as a source.
 
+# TODO
+
+There's a lot of updating to do, for example there are several objects, where's the
+name missing.
+
 # ECO
 
 More up to date ECO data can be found in project [eco](https://github.com/niklasf/eco).
