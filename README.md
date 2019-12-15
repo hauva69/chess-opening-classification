@@ -10,8 +10,7 @@ and others. Tridgell considered all the various sources to be GPL compatible,
 so I will, at least for now, use also GPL for this project, even though
 original data has much more permissible copying rules.
 
-I was unable to locate Lasker, but I found a fork called [Capablanca]
-(https://github.com/ddugovic/capablanca).
+I was unable to locate Lasker, but I found a fork called [Capablanca](https://github.com/ddugovic/capablanca).
 
 # Character encoding in the English long names
 
@@ -22,7 +21,6 @@ are ASCII only and some long names are spelled in several different ways.
 My intention is to make the long names UTF-8 compatible and for the correct
 spelling I have used Wikipedia as a source.
 
-# The format of the data
+# ECO
 
-The modified data is currently in the Python files, but more sensible would
-be use JSON similar to [eco](https://github.com/niklasf/eco).
+More up to date ECO data can be found in project [eco](https://github.com/niklasf/eco).
