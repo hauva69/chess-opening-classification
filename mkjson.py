@@ -5,6 +5,15 @@ MKSJON
 mkjson creates chess opening classification JSON file from the Python library.
 """
 
+__author__ = 'Ari Makela'
+__copyright__ = 'Copyright 2017-2021'
+__credits__ = ['Ari Makela']
+__license__ = 'GPL'
+__version__ = '0.1.0'
+__maintainer__ = 'Ari Makela'
+__email__ = 'ari.makela@iki.fi'
+__status__ = 'Development'
+
 import json
 import logging
 import sys
